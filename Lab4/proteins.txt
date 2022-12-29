@@ -1,0 +1,23 @@
+bacon
+beef
+chicken
+meat
+duck
+ham
+kidneys
+lamb
+liver
+mince
+salami
+sausages
+pork
+pork pie
+sausage roll
+turkey
+veal
+butter
+cream
+cheese
+eggs
+margarine
+
