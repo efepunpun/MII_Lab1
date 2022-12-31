@@ -140,7 +140,7 @@ visualize_stats(x_test, X_test, color, color_2)
 create_table('true')
 more_data = pd.read_csv('Products.csv')
 x_test, X_test, y_pred, Y_pred = classify_data(more_data)
-color = [label.replace("Berry", "purple", 1) for label in y_pred]
+color = [label.replace("Fruit", "yellow", 1).replace("Veggy", "green", 1).replace("Protein", "grey", 1).replace("Berry", "purple", 1) for label in y_pred]
 color_2 = [label.replace("Fruit", "yellow", 1).replace("Veggy", "green", 1).replace("Protein", "grey", 1).replace("Berry", "purple", 1) for label in Y_pred]
 visualize_stats(x_test, X_test, color, color_2)
 
